@@ -1,0 +1,24 @@
+{
+    "users": 
+    [
+        {
+            "userName": "Guest",
+            "userEmail": "useremail@email.com",
+            "userPassword": "guest",
+            "watchlist": [
+                {
+                    "movieName": "Lord of the Rings",
+                    "coverURL": ""
+                },
+                {
+                    "movieName": "Shang-Chi and the Legend of the Ten Rigns",
+                    "coverURL": ""
+                },
+                {
+                    "movieName": "Birds of Prey: Harley Quinn",
+                    "coverURL": ""
+                }
+            ]
+        }
+    ]
+}
