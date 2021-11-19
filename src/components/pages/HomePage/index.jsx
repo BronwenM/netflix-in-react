@@ -3,6 +3,9 @@ import './styles.css';
 
 export const HomePage = () => {
     return(
-        <Button text="Example" type="primary" isDisabled={false} action={() => alert("Button Clicked")}/>
+        <div>
+            <Button text="Primary" type="primary" isDisabled={false} action={() => alert("Button Clicked")}></Button>
+            <Button text="Secondary" type="secondary" isDisabled={false} action={() => alert("Button Clicked")}></Button>
+        </div>
     )
 }
