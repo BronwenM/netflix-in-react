@@ -1,0 +1,30 @@
+.accordion {
+    width: 100%;
+    border: none;
+    margin-bottom: 0.5rem;
+    margin: 1rem 0;
+    height: max-content;
+}
+
+.accordion-title button {
+    border: none;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: #303030;
+    color:#fff;
+    font-size: clamp(18px, 24px, 26px);
+    text-align: left;
+}
+
+.accordion-body {
+    color: #fff;
+    padding: 1.5rem;
+    background-color: #464545;
+    font-size: clamp(16px, 18px, 22px);
+    border-top: 3px solid #000;
+}
