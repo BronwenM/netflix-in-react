@@ -7,7 +7,6 @@ export const Dropdown = () => {
         <div className="dropdown-wrapper">
             <FaGlobe className="globe"/>
             <select className="dropdown">
-                
                 <option value="English">English</option>
                 <option value="French">French</option>
             </select>
