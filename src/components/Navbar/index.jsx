@@ -1,15 +1,9 @@
 import './styles.css';
 import { NavLink } from 'react-router-dom';
-import { useContext, useEffect, useState } from 'react';
-import UserContext from '../../context/userContext';
 import logo from '../../assets/netflix-logo.png'
-import {Button} from '../Button';
 import { Dropdown } from '../Dropdown';
 
 export const Navbar = () => {
-    
-    const globalContext = useContext(UserContext);
-    const loggedIn = false;
 
     return (
         <nav className="navbar">

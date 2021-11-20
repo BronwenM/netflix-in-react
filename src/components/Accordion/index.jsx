@@ -1,7 +1,6 @@
 import './styles.css';
 import { useState } from 'react';
 import {AiOutlinePlus, AiOutlineClose} from 'react-icons/ai';
-import {GrClose} from 'react-icons/gr';
 
 export const Accordion = (props) => {
     
