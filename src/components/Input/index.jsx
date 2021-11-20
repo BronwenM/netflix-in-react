@@ -9,7 +9,7 @@ export const Input = (props) => {
         <div className="input-group">
             {label && <label htmlFor={name}>{label}</label>}
             <input type={type} required={isRequired} name={name} placeholder={placeholder}/>
-            {cta && <button onClick={ctaAction} className="cta">{cta} <BsChevronRight className="icon"/></button>}
+            {cta && <button onClick={ctaAction} className="cta">{cta}<BsChevronRight className="icon"/></button>}
         </div>
     )
 }

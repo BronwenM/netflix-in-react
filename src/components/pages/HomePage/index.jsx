@@ -68,6 +68,11 @@ You can also download your favorite shows with the iOS, Android, or Windows 10 a
                 <Accordion title="How do I cancel?" body="hello world"/>
                 <Accordion title="Test" body="hello world"/>
                 <Accordion title="Test" body="hello world"/>
+                <br></br>
+                <div>
+                    <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+                    <Input type="email" name="email" isRequired={true} placeholder="Enter email here..." cta="Get Started"/>
+                </div>
             </section>
         </div>
     )
