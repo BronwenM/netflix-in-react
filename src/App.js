@@ -9,6 +9,7 @@ import {
 import { Navbar } from "./components/Navbar";
 import { HomePage } from './components/pages/HomePage';
 import { LoginPage } from './components/pages/LoginPage';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/" element={<HomePage/>}></Route>
         <Route path="/login" element={<LoginPage/>}></Route>
       </Routes>
+      <Footer/>
     </Router>
   );
 }
