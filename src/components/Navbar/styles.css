@@ -9,6 +9,7 @@
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    position: absolute;
 }
 
 .navbar ul {
@@ -22,7 +23,6 @@
 
 .navbar li {
     margin: 0 1rem;
-    padding: 0 1rem;
 }
 
 .navbar a {
@@ -32,4 +32,15 @@
 
 .logo {
     width: 10rem;
+}
+
+.signin {
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #e50914;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: clamp(12px, 16px, 16px);
 }

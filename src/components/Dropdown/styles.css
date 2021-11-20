@@ -1,7 +1,7 @@
 .dropdown {
     width: max-content;
     font-size: 16px;
-    background: #000;
+    background: none;
     border: none;
     color: #fff;
     outline: 0;
@@ -26,4 +26,9 @@
     width: max-content;
     display: flex;
     align-content: center;
+    background-color: rgb(31, 30, 30);
+}
+
+.signin {
+    
 }

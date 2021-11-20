@@ -4,6 +4,7 @@ import { useContext, useEffect, useState } from 'react';
 import UserContext from '../../context/userContext';
 import logo from '../../assets/netflix-logo.png'
 import {Button} from '../Button';
+import { Dropdown } from '../Dropdown';
 
 export const Navbar = () => {
     
@@ -17,13 +18,10 @@ export const Navbar = () => {
             </NavLink>
             <ul className="navbar-links">
                 <li>
+                    <Dropdown/>    
+                </li>
+                <li className="signin">
                     <NavLink activeClassName="nav-selected" to="/login">Sign In</NavLink>
-                </li>
-                <li>
-                    <NavLink activeClassName="nav-selected" to="/movies">Movies</NavLink>
-                </li>
-                <li>
-                    <NavLink activeClassName="nav-selected" to="/watchlist">My Watch List</NavLink>
                 </li>
             </ul>
         </nav>
